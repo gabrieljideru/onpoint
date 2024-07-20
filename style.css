@@ -850,6 +850,10 @@ h4 {
     transform: translateY(-5%);
   }
 
+  .operations__content {
+    padding: 1.5rem 3rem 2.5rem 3rem;
+  }
+
   .operations__tab--1 {
     background-color: var(--color-secondary);
   }
@@ -888,6 +892,18 @@ h4 {
   .operations__content p {
     grid-column: 2;
     font-size: 12px;
+  }
+
+  .slider__btn {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.25rem;
+  }
+
+  .testimonial::before {
+    top: -2.7rem;
+    left: -2.8rem;
+    font-size: 12rem;
   }
 
   .footer__nav {
